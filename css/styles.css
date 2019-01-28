@@ -1,7 +1,28 @@
-@media (min-width: 979px) {
+/* @font-face {
+  font-family: PTSans;
+  src: url("http://fonts.googleapis.com/css?family=PT+Sans");
+} */
 
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
 }
 
-.dropdown:hover>.dropdown-menu {
-  display: block;
+nav {
+  background-color: brown;
+}
+
+.container{
+  margin-top: 10px;
+}
+
+h1, h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 979px) {
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
 }
