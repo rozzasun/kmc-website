@@ -21,6 +21,10 @@ body {
   color: black;
 }
 
+.btn-link {
+  color: black;
+}
+
 .container {
   margin-top: 10px;
 }
