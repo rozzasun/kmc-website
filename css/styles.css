@@ -40,3 +40,7 @@ h1, h3 {
     margin-top: 0px;
   }
 }
+
+.display-none {
+  display: none;
+}
