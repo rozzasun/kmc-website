@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-  if (window.location.pathname.split("/").pop() == 'concertTimesAndMessages.html') {
+  if (window.location.pathname.split("/").pop() == 'concertDates.html') {
     setCookie();
-  } else if (!sessionStorage.getItem('viewedNews')) {
+  } else if (!sessionStorage.getItem('viewedUpdate')) {
     $('#banner').show();
     $('#banner').on('closed.bs.alert', setCookie);
     $('#banner > a').on('click', setCookie);
@@ -10,6 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function setCookie() {
-    sessionStorage.setItem('viewedNews', true);
+    sessionStorage.setItem('viewedUpdate', true);
   }
 })
