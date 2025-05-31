@@ -1,18 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
-//   // temporarily disable banner
-  $('#banner').show();
+  // temporarily disable banner
+  $('#banner').hide();
 
-//   if (window.location.pathname.split("/").pop() == 'concertDates.html') {
-//     setCookie();
-//   } else if (!sessionStorage.getItem('viewedUpdate')) {
-//     $('#banner').show();
-//     $('#banner').on('closed.bs.alert', setCookie);
-//     $('#banner > a').on('click', setCookie);
-//   } else {
-//     $('#banner').hide();
-//   }
+  // if (window.location.pathname.split("/").pop() == 'concertDates.html') {
+  //   setCookie();
+  // } else if (!sessionStorage.getItem('viewedUpdate')) {
+  //   $('#banner').show();
+  //   $('#banner').on('closed.bs.alert', setCookie);
+  //   $('#banner > a').on('click', setCookie);
+  // } else {
+  //   $('#banner').hide();
+  // }
 
-//   function setCookie() {
-//     sessionStorage.setItem('viewedUpdate', true);
-//   }
+  // function setCookie() {
+  //   sessionStorage.setItem('viewedUpdate', true);
+  // }
 })
