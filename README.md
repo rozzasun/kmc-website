@@ -2,5 +2,3 @@
 Kanata Music Club Website
 
 Testing link: <https://rozzasun.github.io/kmc-website/>
-
-hi :D
