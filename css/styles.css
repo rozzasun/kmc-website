@@ -21,6 +21,11 @@ body {
   color: black;
 }
 
+.nav-link.active {
+  color: black !important;
+  text-decoration: underline;
+}
+
 .btn-link {
   color: black;
 }
