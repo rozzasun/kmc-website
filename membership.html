@@ -1,130 +1,173 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="img/logo.png" />
+    <title>Kanata Music Club</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="img/logo.png">
-  <title>Kanata Music Club</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-</head>
+  <body>
+    <div class="container main">
+      <nav class="navbar navbar-expand-lg navbar-light flex-column">
+        <a class="navbar-brand" href="index.html">
+          <img
+            id="logo"
+            src="img/logo.png"
+            height="100"
+            class="d-inline-block align-top"
+            alt=""
+          />
+        </a>
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-<body>
-  <div class="container main">
-    <nav class="navbar navbar-expand-lg navbar-light flex-column">
-      <a class="navbar-brand" href="index.html">
-        <img id="logo" src="img/logo.png" height="100" class="d-inline-block align-top" alt="">
-      </a>
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About Us</a>
+              </li>
 
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About Us</a>
-            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="concertDates.html"
+                  >Overview: Dates and Deadlines</a
+                >
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="concertDates.html">Overview/Dates and Deadlines</a>
-            </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="membership.html"
+                  >For Parents: Memberships, Payments, & Concert Etiquette</a
+                >
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link active" href="membership.html">Memberships and Concert Application</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="concertTimesAndMessages.html">Upcoming Concert Posting/Concert Etiquette</a>
-            </li>
-            <!-- 
-            <li class="nav-item">
-              <a class="nav-link" href="teacherMembership.html">Teacher Membership/Procedures</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="awardsAndScholarships.html">Scholarship Info</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="forms.html">All Forms</a>
-            </li>
-             -->
-          </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="concertTimesAndMessages.html"
+                  >For Teachers: Upcoming Concert Postings & Information</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+      <div class="container">
+        <img src="img/cropped-Trial1.jpg" width="100%" />
       </div>
-    </nav>
-    <div class="container"><img src="img/cropped-Trial1.jpg" width="100%"></div>
 
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Membership</h2>
+            <p>
+              In order to perform in our concerts, a Student Membership Fee of
+              $75.00 is required for each season, to be paid by e-Transfer
+              <b>at least two weeks</b> prior to the student's first
+              performance. There is an additional $30.00 fee for each additional
+              performing family member. Also, students wishing to perform on a
+              second instrument may do so with the addition of a $30.00 Second
+              Instrument fee.
+            </p>
 
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <p style="font-size: 20px;" class="list-group-item mb-2">
-            <a style="font-size: 20px;" href="https://forms.gle/bHwaG6YjFES3dYyb7" target=_blank>Concert Request Form</a>
-          </p>
+            <h2>Payment Details</h2>
+            <ul>
+              <li>
+                Step 1: Send an e-Transfer for the membership fee(s) to
+                <a href="mailto:kanatamusicclub@gmail.com"
+                  >kanatamusicclub@gmail.com</a
+                >. In the message line of the e-Transfer include the
+                <b>student(s) proper performing</b> name as well the
+                <b>Teacher's name</b>. It is important that the student's chosen
+                performing name is <b>consistently</b> used in this payment memo
+                as well as on the Concert Request Form. Please clearly indicate
+                the specifics of any additional fees and for which student it
+                pertains.
+              </li>
+              <li>
+                Step 2: Forward a copy of the e-Transfer to the student's
+                teacher.
+              </li>
+            </ul>
 
-          <h2>Membership</h2>
-          <p>In order to perform in our concerts, a Student Membership Fee of $75.00 is required for each season, to be paid by e-Transfer <b>at least two weeks</b> prior to the student's first performance.  
-            There is an additional $30.00 fee for each additional performing family member. Also, students wishing to perform on a second instrument may do so
-            with the addition of a $30.00 Second Instrument fee.            
-          </p>
-
-          <h2>Payment Details</h2>
-          <ul>
-            <li>Step 1: Send an e-Transfer for the membership fee(s) to <a href="mailto:kanatamusicclub@gmail.com">kanatamusicclub@gmail.com</a>. In the message line of the e-Transfer include the <b>student(s) proper performing</b> name as well the <b>Teacher's name</b>.
-              It is important that the student's chosen performing name is <b>consistently</b> used in this payment memo as well as on the Concert Request Form. Please clearly indicate the specifics of any additional fees
-              and for which student it pertains.
-            </li>
-            <li>Step 2: Forward a copy of the e-Transfer to the student's teacher.</li>
-          </ul>
-
-          <h2>General Points for Teachers</h2>
-          <ul>
-            <li>There is no membership fee for Teachers.</li>
-            <li>Participation by a teacher in any one concert will be held to a maximum of 20 minutes.  Once that amount of performance time is reached, additional students from that teacher will likely be placed in the following concert.</li>
-            <li>Teachers are asked to help track the payment of fees for their students.  Note that the students will forward a copy of their membership payment (which should be made at least two weeks prior to their first performance of the season.)</li>
-          </ul>
-
-          <h2>Application Procedure</h2>
-          <ul>
-            <li>Applications should be made <span class="font-weight-bold" style="text-decoration: underline;">by the teacher (not the parents)</span> using the <a href="https://forms.gle/bHwaG6YjFES3dYyb7" target=_blank class="font-weight-bold">Concert Request Form</a>. This form should be submitted a minimum of 3 weeks prior to the concert date, 5 weeks before the January concert.</li>
-            <li>A notice of receipt of the Concert Request Form will be sent to the teacher.</li>
-            <li>Students may perform one piece or two pieces if they are of relatively short duration. See specific time limits (according to Grade levels) on the Concert Request Form.</li>
-            <li>Memorization is not mandatory, but is strongly recommended.</li>
-          </ul>
-
-          <h2>Notification of Specific Concert Times</h2>
-          <ul>
-            <li>There are often several separate concerts scheduled on our concert Sundays.</li>
-            <li><b>Every effort to avoid special requests for specific concert times must be made by all members and teachers.</b></li>
-            <li>Specific concert times as well as the programmes for the upcoming concerts will be posted on our website one week prior to the concert under <a href='concertTimesAndMessages.html'>Upcoming Concert Posting.</a></li>
-            <li>Printed programs will not be distributed at the concert venue.  If a printed copy is desired, please print from the posting on the website.</li>
-          </ul>
+            <h2>Concert Etiquette</h2>
+            <ul>
+              <li>
+                All performers should arrive at least 5-10 minutes before the
+                concert time, but not earlier than 15 minutes before concert
+                time, to ensure a teacher supervisor is in house.
+              </li>
+              <li>
+                Members must plan to stay for the entire concert that they are
+                performing in, showing support and interest in their fellow club
+                members.
+              </li>
+              <li>
+                <b>No rehearsals are allowed before the concert begins.</b>
+                String and woodwind players may use the piano for tuning
+                purposes before the concert begins.
+              </li>
+              <li>
+                Members should dress appropriately for public performance. No
+                jeans, hoodies or T-shirts. No winter boots on stage.
+              </li>
+              <li>
+                In the case when someone must enter or exit the hall during a
+                concert, please do so very discreetly between performances.
+              </li>
+              <li>
+                You may record your own student/child's performance. Do not
+                record any other performers without their parent's consent.
+                Recording equipment should be set up discreetly before the start
+                of the concert.
+              </li>
+              <li>No food is permitted in the venue. Water is permitted.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <footer class="page-footer font-small blue">
-    <div class="footer-copyright text-center py-3">© 2026 Kanata Music Club</div>
-  </footer>
+    <footer class="page-footer font-small blue">
+      <div class="footer-copyright text-center py-3">
+        © 2026 Kanata Music Club
+      </div>
+    </footer>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
